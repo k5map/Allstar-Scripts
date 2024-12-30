@@ -34,7 +34,7 @@ You can use the website of https://crontab.guru/ for more details on your cronta
 
 ## List of scripts and their author
 
-* node_connections.sh -- authored by K5MAP
+* node_connection.sh -- authored by K5MAP
 * reboot_server.sh -- authored by [KD5FMU](https://github.com/KD5FMU/)
 * shutdown_server.sh -- authored by [KD5FMU](https://github.com/KD5FMU/)
 * sysMonitor.sh -- authored by K5MAP
