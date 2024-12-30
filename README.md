@@ -8,7 +8,7 @@ My preference is to put all of my script files in the /usr/local/sbin folder sin
 
 To get the script file downloaded onto your node just use this command:
 ```
-sudo wget https://raw.githubusercontent.com/K5MAP/xxx/refs/heads/main/<filename>.sh
+sudo wget https://raw.githubusercontent.com/K5MAP/Allstar-Scripts/refs/heads/main/<filename>.sh
 ```
 
 ## Make script file executable
