@@ -38,6 +38,6 @@ You can use the website of https://crontab.guru/ for more details on your cronta
 
 ## Contribute
 
-Don't hesitate to report any issues, or suggest improvements; just visit the [issues page](https://github.com/k5map/BalloonTelemetry/issues).
+Don't hesitate to report any issues, or suggest improvements; just visit the [issues page](https://github.com/k5map/Allstar-Scripts/issues).
 
 73 DE K5MAP
