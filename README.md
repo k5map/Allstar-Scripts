@@ -23,9 +23,11 @@ chown root:root <filename>.sh
 
 ## Make script file executable
 
-If you want the script to run on a schedule, a crontab job must be created.  To open this crontab editor go to the command like and execute this command:
+If you want the script to run on a schedule, a 'root' crontab job must be created.  To access the crontab editor, enter the following commands:
 ```
-sudo crontab -e
+sudo su
+crontab -e
+exit
 ```
 You can use the website of https://crontab.guru/ for more details on your crontab entries.
 
