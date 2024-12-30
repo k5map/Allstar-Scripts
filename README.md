@@ -19,6 +19,7 @@ sudo su
 cd /usr/local/sbin  [substitute the directory where you want to store the script]
 chmod +x <filename>.sh
 chown root:root <filename>.sh
+exit
 ```
 
 ## Make script file executable
