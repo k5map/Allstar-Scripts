@@ -22,7 +22,7 @@ chown root:root <filename>.sh
 exit
 ```
 
-## Make script file executable
+## Schedule script file to run
 
 If you want the script to run on a schedule, a 'root' crontab job must be created.  To access the crontab editor, enter the following commands:
 ```
