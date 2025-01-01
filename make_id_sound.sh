@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 # This script will create a voice callsign ID file for Allstar
+# *** NOTE ***:  this script must be run as root via 'sudo'
 #
 # Mike - K5MAP, 1/1/2025
 
@@ -13,5 +14,4 @@ echo "$LETTERS/w.gsm"
 echo "$DIGITS/5.gsm"
 echo "$WORDS/repeater.gsm"
 
-cat "$LETTERS/w.gsm" "$DIGITS/5.gsm" "$LETTERS/n.gsm" "$LETTERS/c.gsm" "$WORDS/repeater.gsm" "$WORDS/houston.gsm" > /tmp/myid.gsm
-
+cat "$LETTERS/w.gsm" "$DIGITS/5.gsm" "$LETTERS/n.gsm" "$LETTERS/c.gsm" "$WORDS/repeater.gsm" "$WORDS/houston.gsm" > /var/lib/asterisk/sounds/custom/radio-id.gsm
