@@ -38,6 +38,7 @@ You can use the website of https://crontab.guru/ for more details on your cronta
 * node_connection.sh -- authored by K5MAP
 * reboot_server.sh -- authored by [KD5FMU](https://github.com/KD5FMU/)
 * shutdown_server.sh -- authored by [KD5FMU](https://github.com/KD5FMU/)
+* Sync_Web_Pswd.py -- authored by K5MAP
 * sysMonitor.sh -- authored by K5MAP
 
 ## Contribute
