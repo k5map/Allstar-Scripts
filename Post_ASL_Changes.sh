@@ -31,11 +31,9 @@
 
 # program vars
 AST_RESTART=false
-# RPT_file="/etc/asterisk/rpt.conf"
-RPT_file="/home/asl/Test/rpt.conf"
-# SM_Common_file="/var/www/html/supermon/common.inc"
-SM_Common_file="/home/asl/Test/common.inc"
-# ASL_BACKUP_file="/var/asl-backups/asl-backup-files"
+RPT_file="/etc/asterisk/rpt.conf"
+SM_Common_file="/var/www/html/supermon/common.inc"
+ASL_BACKUP_file="/var/asl-backups/asl-backup-files"
 SWP_DTMF=";\n; SkyDescribe DTMF Commands \n\
 841 = cmd,/usr/local/bin/SkywarnPlus/SkyDescribe.py 1 ; SkyDescribe the 1st alert \n\
 842 = cmd,/usr/local/bin/SkywarnPlus/SkyDescribe.py 2 ; SkyDescribe the 2nd alert \n\
@@ -46,7 +44,6 @@ SWP_DTMF=";\n; SkyDescribe DTMF Commands \n\
 847 = cmd,/usr/local/bin/SkywarnPlus/SkyDescribe.py 7 ; SkyDescribe the 7th alert \n\
 848 = cmd,/usr/local/bin/SkywarnPlus/SkyDescribe.py 8 ; SkyDescribe the 8th alert \n\
 849 = cmd,/usr/local/bin/SkywarnPlus/SkyDescribe.py 9 ; SkyDescribe the 9th alert \n"
-ASL_BACKUP_file="/home/asl/Test/asl-backup-files"
 ASL_BACKUP_lines="\n\
 # Asterisk customizations \n\
 /var/lib/asterisk/sounds \n\
